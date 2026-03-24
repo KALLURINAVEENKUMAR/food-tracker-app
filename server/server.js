@@ -31,6 +31,10 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', message: 'Server is running with love 💕' });
 });
 
+app.get("/", (req, res) => {
+  res.send("Food Tracker API Running ❤️");
+});
+
 // Connect to DB and start server
 const PORT = process.env.PORT || 5000;
 
