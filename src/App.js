@@ -78,7 +78,7 @@ function App() {
       )}
 
       {/* Main Content */}
-      <main className="flex-1">
+      <main className="flex-1 flex items-center">
         {currentPage === 'home' ? (
           <HomePage onAddMeal={openAddModal} mealCount={meals.length} />
         ) : (
