@@ -19,8 +19,8 @@ export default function LoveMessage() {
   }, []);
 
   return (
-    <div className="glass-card inline-block px-4 py-2 md:px-6 md:py-3 animate-float">
-      <p className="bg-gradient-to-r from-rose-500 to-pink-500 bg-clip-text text-transparent font-semibold text-sm font-cursive text-lg">
+    <div className="glass-card inline-block px-3 py-1.5 md:px-6 md:py-3 animate-float">
+      <p className="bg-gradient-to-r from-rose-500 to-pink-500 bg-clip-text text-transparent font-semibold text-xs md:text-sm font-cursive md:text-lg">
         {message}
       </p>
     </div>
