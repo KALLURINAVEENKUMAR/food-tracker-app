@@ -88,7 +88,7 @@ export default function AddMealModal({ isOpen, onClose, onSubmit, editingMeal })
         <h2 className="font-cursive text-4xl bg-gradient-to-r from-rose-500 to-pink-500 bg-clip-text text-transparent mb-2 text-center">
           {editingMeal ? 'Edit Meal' : 'Add a Meal'}
         </h2>
-        <p className="text-rose-400 text-sm text-center mb-6">What did you enjoy? 💕</p>
+        <p className="text-rose-400 text-sm text-center mb-6">Em tinnav cutieee? 💕</p>
 
         <form onSubmit={handleSubmit} className="space-y-4">
           {/* Meal Type Selection */}
@@ -126,7 +126,7 @@ export default function AddMealModal({ isOpen, onClose, onSubmit, editingMeal })
               type="text"
               value={foodName}
               onChange={(e) => setFoodName(e.target.value)}
-              placeholder="e.g., Pasta with love"
+              placeholder="e.g., Bonda, Puri, Laddu ?"
               maxLength={200}
               className="w-full px-4 py-3 rounded-xl glass border border-white/30 text-rose-600 placeholder-rose-400/50 font-medium focus:border-rose-300 transition-all"
               required
@@ -141,7 +141,7 @@ export default function AddMealModal({ isOpen, onClose, onSubmit, editingMeal })
             <textarea
               value={description}
               onChange={(e) => setDescription(e.target.value)}
-              placeholder="How was it?"
+              placeholder="Banee unda taste?"
               maxLength={500}
               rows={2}
               className="w-full px-4 py-3 rounded-xl glass border border-white/30 text-rose-600 placeholder-rose-400/50 font-medium resize-none focus:border-rose-300 transition-all"
